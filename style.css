@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+button{cursor: pointer;}
+body{
+    min-width: 320px;
+    width: 100%;
+    background-color: #96A755;
+}
+header{
+    min-width: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F1B641;
+    text-align: center;
+    position: fixed;
+    top: -1px;
+    color:antiquewhite;
+}
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:antiquewhite;
+}
+.btnNav{
+    width: 3rem;
+    height: 1.4rem;
+    border: none;
+    background: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer;
+}
+.navBar{
+    display: none;
+    text-transform: uppercase;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+} 
+#btnMenu{
+    width: 1.4rem;
+    height: 1.4rem;
+    background-image: url(./img/toogle.png);
+}
+#btnBag{
+    width: 4rem;
+    height: 1.5rem;
+    border: none;
+    background-image: url(./img/2.png);
+}
+main{
+    width: 100%;
+    padding: 3rem 1rem 5rem;
+    background-color: #96A755;
+    
+}
+.aboutUs{
+    width: 80%;
+    margin: 0 auto;
+}
+.aboutUs p{
+    margin: 1rem 0;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 18rem;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    background-color: #ffe9bf;
+}
+.spice{
+    width: 14rem;
+    height: 22rem;
+    margin: 1rem auto;
+}
+.spice img{
+    width: 100%;
+    height: 100%;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.name p{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.name p:hover{
+    color:crimson;
+    font-weight: bolder;
+}
+.content{
+    margin: 1rem 0;
+}
+.content h3{
+    text-transform: uppercase;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     margin: 1rem auto;
+}
+.counterSelector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100%;
+    height: 1.5rem;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.counterSelector button{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: transparent;
+}
+.counter p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+#add1, #add2, #add3{
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 1rem;
+    background-color: #000;
+    color: #fff;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+footer{
+    min-width: 320px;
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F1B641;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+@media (min-width: 768px) {
+    nav{
+        width: 80%;
+        flex-direction: row-reverse;
+    }
+    #btnMenu{
+        display: none;
+    }
+    .navBar{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        color: #000;
+        transition: .3s;
+    }
+    a:hover{
+        text-decoration: underline;
+        }
+}

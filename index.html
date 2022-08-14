@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/flavoLogo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="btnNav" id="btnMenu"></button>
+            <ul class="navBar">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+            <h1>flavo</h1>
+        </nav>
+        <button class="btnNav" id="btnBag"></button>
+    </header>
+    <main>
+        <section class="aboutUs">
+            <p>Flavo is a producer of original spice mixes based in the Netherlands. Its products are suitable for both home and professional cooking.</p>
+            <p>Brand identity and packaging focuses not on ingredients and flavors but on emotions these mixes evoke. Brand illustrations show these emotions in a playful and naive style. Color palette of each Flavo packaging is based on particular spices used for this mix.</p>
+            <p>The first tree Flavo mixes are Cosiness, Intensity and Passion.</p>
+        </section>
+        <section class="products">
+            <div class="card">
+                <figure class="spice">
+                    <img src="./img/cosiness.png" alt="spice flavor cosiness" title="cosiness">
+                </figure>
+                <div class="info">
+                    <div class="name">
+                        <h2>cosiness</h2>
+                        <p>$ 18</p>
+                    </div>
+                    <div class="content">
+                        <h3>What's inside</h3>
+                        <p>Chili, Oregano, Safran, Paprika.</p>
+                    </div>
+                    <div class="content">
+                        <h3>Why we love it</h3>
+                        <p>This one will add a little savoury flavour to any food and turn any meal to a culinary masterpiece.</p>
+                    </div>
+                    <div class="options">
+                        <div>
+                            <input type="radio" name="flavo" id="bag1">
+                            <label for="bag1">bag (75g)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="flavo" id="jar1">
+                            <label for="jar1">jar (150g)</label>
+                        </div>
+                    </div>
+                    <div class="counterSelector">
+                        <button id="decrement1" type="button">&#8722;</button>
+                        <p id="counterResult1"></p>
+                        <button id="increment1" type="button">&#43;</button>
+                    </div>
+                    <button id="add1">add to cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <figure class="spice">
+                    <img src="./img/intensity.png" alt="spice flavor cosiness" title="cosiness">
+                </figure>
+                <div class="info">
+                    <div class="name">
+                        <h2>intensity</h2>
+                        <p>$ 14</p>
+                    </div>
+                    <div class="content">
+                        <h3>What's inside</h3>
+                        <p>Garlic, Paprika, Onion, Annatto.</p>
+                    </div>
+                    <div class="content">
+                        <h3>Why we love it</h3>
+                        <p>This one will add a little savoury flavour to any food and turn any meal to a culinary masterpiece.</p>
+                    </div>
+                    <div class="options">
+                        <div>
+                            <input type="radio" name="flavo" id="bag2">
+                            <label for="bag2">bag (75g)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="flavo" id="jar2">
+                            <label for="jar2">jar (150g)</label>
+                        </div>
+                    </div>
+                    <div class="counterSelector">
+                        <button id="decrement2" type="button">&#8722;</button>
+                        <p id="counterResult2"></p>
+                        <button id="increment2" type="button">&#43;</button>
+                    </div>
+                    <button id="add2">add to cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <figure class="spice">
+                    <img src="./img/passion.png" alt="spice flavor cosiness" title="cosiness">
+                </figure>
+                <div class="info">
+                    <div class="name">
+                        <h2>passion</h2>
+                        <p>$ 15</p>
+                    </div>
+                    <div class="content">
+                        <h3>What's inside</h3>
+                        <p>Cinamon, Lemon Zest, Orange Peel, Vanilla.</p>
+                    </div>
+                    <div class="content">
+                        <h3>Why we love it</h3>
+                        <p>This one will add a little savoury flavour to any food and turn any meal to a culinary masterpiece.</p>
+                    </div>
+                    <div class="options">
+                        <div>
+                            <input type="radio" name="flavo" id="bag3">
+                            <label for="bag3">bag (75g)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="flavo" id="jar3">
+                            <label for="jar3">jar (150g)</label>
+                        </div>
+                    </div>
+                    <div class="counterSelector">
+                        <button id="decrement3" type="button">&#8722;</button>
+                        <p id="counterResult3"></p>
+                        <button id="increment3" type="button">&#43;</button>
+                    </div>
+                    <button id="add3">add to cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
